@@ -1,0 +1,7 @@
+streamlit
+crewai
+crewai-tools
+pymupdf
+pdf2image
+pytesseract
+python-dotenv
