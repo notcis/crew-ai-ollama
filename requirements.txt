@@ -5,3 +5,5 @@ pymupdf
 pdf2image
 pytesseract
 python-dotenv
+crewai[litellm]
+pydantic

@@ -73,3 +73,6 @@ ehthumbs.db
 *.log
 tmp/
 temp/
+
+notebook_output/
+fine-tune-llm/
