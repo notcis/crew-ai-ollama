@@ -58,8 +58,9 @@ ollama serve
 เปิด terminal อีกหน้าต่าง (ที่ activate virtual environment แล้ว) และรัน:
 
 ```powershell
-streamlit run app.py ## AI ตรวจสัญญาเช่า/สัญญาจ้าง 
-streamlit run social_app.py ## สำหรับ Social Content Studio
+streamlit run 1_contract/app.py ## AI ตรวจสัญญาเช่า/สัญญาจ้าง 
+streamlit run 2_social/app.py ## สำหรับ Social Content Studio
+streamlit run 3_fantasy/app.py ## สำหรับ Fantasy premier league
 ```
 
 ---

@@ -7,3 +7,5 @@ pytesseract
 python-dotenv
 crewai[litellm]
 pydantic
+ollama
+requests

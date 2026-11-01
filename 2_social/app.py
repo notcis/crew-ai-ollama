@@ -2,11 +2,21 @@ from __future__ import annotations
 
 import json
 import logging
+import sys
 import threading
 import time
+from pathlib import Path
 from queue import Empty, Queue
 
 import streamlit as st
+
+CURRENT_DIR = Path(__file__).resolve().parent
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(CURRENT_DIR))
+
+PROJECT_ROOT = CURRENT_DIR.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from social_pipeline import (
     DEFAULT_BASE_URL,
